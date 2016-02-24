@@ -32,6 +32,9 @@ gem 'haml-rails'
 #Gema de bootstrap
 gem 'bootstrap-sass'
 
+#Gema Tema Tareial Design for Bootstrap
+gem 'bootstrap-material-design'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
