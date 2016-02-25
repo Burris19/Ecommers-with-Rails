@@ -47,6 +47,11 @@ gem 'bootstrap-material-design'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+
+  gem 'shoulda-matchers', '>= 3.1.1' 
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
+
 end
 
 group :development do
