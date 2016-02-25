@@ -35,6 +35,8 @@ gem 'bootstrap-sass'
 #Gema Tema Tareial Design for Bootstrap
 gem 'bootstrap-material-design'
 
+#Gema PaperClip para subir imagenes
+gem 'paperclip'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
