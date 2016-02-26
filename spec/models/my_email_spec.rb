@@ -9,7 +9,7 @@ RSpec.describe MyEmail, type: :model do
   	expect(email.valid?).to be_falsy
   end
 
-  it "should not create with invalid email" do
+  it "should create with valid email" do
   	email = MyEmail.new(email:"julian@gmail.com")
   	expect(email.valid?).to be_truthy
   end
