@@ -15,7 +15,7 @@
 				ver como cliente
 			=link_to edit_product_path(@product), class:"other-grey large-padding text-center col-md4 inline-block" do
 				editar producto
-			=link_to @product,method: :delete, class:"other-grey large-padding text-center col-md4 inline-block" do
+			=link_to @product,method: :delete, class:"other-grey large-padding text-center col-md4 inline-block", data: { confirm: "Estas seguro de eliminar el producto?"} do
 				eliminar producto
 			
 				
