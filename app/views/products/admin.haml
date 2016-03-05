@@ -22,7 +22,7 @@
 			%ol
 				-@product.attachments.each do |attachment|
 					%li.large-padding.medium.grey-text.other-grey
-						.col-xs-11.inline-block= attachment.archivo_file_name
+						.col-xs-11.inline-block= link_to attachment.archivo_file_name, attachment
 						.col-xs-1.inline-block 
 							=link_to attachment, method: :delete,:"data-confirm" => "Estas seguro de eliminar el producto?",class:"red-text" do
 								X

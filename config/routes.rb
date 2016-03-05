@@ -1,6 +1,6 @@
 Rails.application.routes.draw do    
 
-  resources :attachments, only: [:create, :destroy, :new]
+  resources :attachments, only: [:create, :destroy, :new, :show]
   resources :products
   devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.
