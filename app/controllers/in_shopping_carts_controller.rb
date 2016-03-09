@@ -1,3 +1,14 @@
+# == Schema Information
+#
+# Table name: in_shopping_carts
+#
+#  id               :integer          not null, primary key
+#  product_id       :integer
+#  shopping_cart_id :integer
+#  created_at       :datetime         not null
+#  updated_at       :datetime         not null
+#
+
 class InShoppingCartsController < ApplicationController
 	def create
 		in_shopping_cart = InShoppingCart.new(product_id: params[:product_id],
