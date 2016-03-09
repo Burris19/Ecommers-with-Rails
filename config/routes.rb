@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   post "/emails/create", as: :create_email
   get "/carrito", to: "shopping_cart#show"
+  get "/add/:product_id", as: :add_to_cart, to: "in_shopping_carts#create"
 
   authenticated :user do
     root 'welcome#index'  
