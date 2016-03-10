@@ -37,6 +37,10 @@ gem 'bootstrap-material-design'
 
 #Gema PaperClip para subir imagenes
 gem 'paperclip'
+
+#Gema Paypal SDK
+gem 'paypal-sdk-rest'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
